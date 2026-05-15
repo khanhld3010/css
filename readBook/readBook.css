@@ -1,0 +1,35 @@
+/* Định dạng ảnh đầu trang */
+.story-cover {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Bước 5: Định dạng cho mục lục */
+h5 {
+    margin: 5px 0;
+}
+
+h5 a {
+    text-decoration: none; /* Bỏ gạch chân link */
+    color: #2c3e50;
+}
+
+h5 a:hover {
+    color: #e74c3c; /* Đổi màu khi di chuột vào */
+}
+
+/* Định dạng nội dung truyện (Sử dụng các thuộc tính gợi ý trước đó) */
+.story-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;    /* Căn đều hai bên */
+    text-indent: 30px;      /* Thụt lề dòng đầu */
+    color: #333;
+}
+
+section {
+    margin-bottom: 50px;
+    padding-top: 20px; /* Để khi nhảy link không bị sát mép trên */
+}
