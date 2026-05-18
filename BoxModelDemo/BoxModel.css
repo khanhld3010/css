@@ -1,0 +1,13 @@
+.boxmodel {
+    width: 800px;
+    border: 10px;
+    padding: 10px;
+    border-color: chartreuse aqua blue blueviolet;
+    border-style: solid;
+
+    /* Căn giữa chính giữa màn hình */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
